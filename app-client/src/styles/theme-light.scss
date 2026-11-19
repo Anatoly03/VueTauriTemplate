@@ -1,0 +1,22 @@
+
+:root,
+:root[data-theme=light] {
+    // Backgrounds
+    --bg-content: #fff;
+    --bg-header: #eee;
+    --bg-footer: #eee;
+
+    // Text
+    --color-content: #000;
+    --color-header: #000;
+    --color-footer: #000;
+
+    // Spacing
+    --spacing-xs: 0.2rem;
+    --spacing-sm: 0.3rem;
+    --spacing-md: 0.5rem;
+    --spacing-lg: 0.75rem;
+    --spacing-xl: 1rem;
+    --spacing-xxl: 1.25rem;
+    --spacing-xxxl: 2rem;
+}

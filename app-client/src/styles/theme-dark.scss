@@ -1,0 +1,21 @@
+
+:root[data-theme=dark] {
+    // Backgrounds
+    --bg-content: #222;
+    --bg-header: #333;
+    --bg-footer: #333;
+
+    // Text
+    --color-content: #fff;
+    --color-header: #fff;
+    --color-footer: #fff;
+
+    // Spacing
+    --spacing-xs: 0.2rem;
+    --spacing-sm: 0.3rem;
+    --spacing-md: 0.5rem;
+    --spacing-lg: 0.75rem;
+    --spacing-xl: 1rem;
+    --spacing-xxl: 1.25rem;
+    --spacing-xxxl: 2rem;
+}

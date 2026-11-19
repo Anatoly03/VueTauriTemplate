@@ -7,5 +7,8 @@
 <style lang="scss" scoped>
 .view-application-header {
     display: flex;
+    padding: var(--spacing-lg);
+    background-color: var(--bg-header);
+    color: var(--color-header);
 }
 </style>
