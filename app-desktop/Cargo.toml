@@ -3,4 +3,13 @@ name = "app-desktop"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+name = "app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.6.1", features = [] }
+
 [dependencies]
+dotenvy = { version = "0.15.7" }
+tauri = { version = "2.11", features = [] }
