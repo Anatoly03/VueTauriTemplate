@@ -1,0 +1,23 @@
+
+// Overrides browser-default font and margin.
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+// Creates the "outer" flexbox which spans the entire document viewport. This ensures all
+// underlying components utilizing the viewport to the maximum.
+#app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    flex: 1;
+}
+
+// Affects padding to be calculated "inwards" instead of "outwards". An HTML element without
+// this styling can exceed a setting of `width: 100%` if given non-zero padding.
+* {
+    box-sizing: border-box;
+}

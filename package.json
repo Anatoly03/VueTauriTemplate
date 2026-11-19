@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "workspaces": [
+        "app-client"
+    ],
+    "scripts": {
+        "test": "npm run test --workspaces",
+        "dev": "npm run dev --workspace=app-client"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "vite": "^8.3.8"
+    }
+}
