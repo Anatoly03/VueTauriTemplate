@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "TauriVueApp",
+  "productName": "VueTauri",
   "version": "0.0.0",
-  "identifier": "com.taurivue.dev",
+  "identifier": "com.vuetauri.dev",
   "build": {
     "frontendDist": "../app-client/dist",
     "devUrl": "http://localhost:8020/",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "TauriVue",
+        "title": "VueTauri",
         "width": 800,
         "height": 600,
         "resizable": true,
